@@ -1,6 +1,25 @@
 # Android_Json_using_Volley
+
 Parsing Api Json data from web using Volley
+
+[Beeceptor.com](https://beeceptor.com/) - The free Api hosting service
+
 ## Steps to Implement Volley in your android-project
+
+### My Json Format
+
+```
+{
+"Product":[
+        {
+        "description":"This is test api",
+        "id":1,
+        "name":"Test Api",
+        "price": 150,
+        "filename": "https://github.githubassets.com/images/modules/open_graph/github-octocat.png" }
+  ]}
+```
+
 ### Step 1:
   ###### Create a new android Project.
 ### Step 2:
